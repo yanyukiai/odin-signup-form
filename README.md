@@ -10,4 +10,4 @@ You can access the live site [here](TBD)
 
 The images used in this project were generously provided by the following photographers on Unsplash:
 
-- [Lexi Laginess](https://unsplash.com/@lexilaginess)
+- [Halie West](https://unsplash.com/@haliewestphoto)
