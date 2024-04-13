@@ -122,7 +122,7 @@ button {
 }
 
 .input-row {
-  padding: 0;
+  padding-left: 0;
   justify-content: space-between;
 }
 
@@ -133,6 +133,7 @@ button {
 li {
   font-size: 12px;
   flex-direction: column;
+  padding-right: 10px;
 }
 
 input {
