@@ -11,3 +11,7 @@ You can access the live site [here](TBD)
 The images used in this project were generously provided by the following photographers on Unsplash:
 
 - [Halie West](https://unsplash.com/@haliewestphoto)
+
+## Scope of Work
+
+The password matching is out of scope in this project.
