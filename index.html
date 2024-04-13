@@ -24,69 +24,79 @@
       </div>
     </div>
     <div class="form">
-      <div class="form-intro">
-        <p>This is not a real online service!</p>
-        <p>Sign up Now to get started!</p>
-      </div>
       <form action="Reference/" method="post">
+        <div class="form-intro">
+          <p>This is not a real online service.</p>
+          <p>Sign up <span class="font-italic">now</span> to get started!</p>
+        </div>
         <div class="form-content">
           <div class="form-header">Let's do this!</div>
           <div class="user-input">
-            <div>
-              <label for="first_name">FIRST NAME</label>
-              <input
-                type="text"
-                id="first_name"
-                name="first_name"
-                placeholder="Jim"
-              />
-            </div>
-            <div>
-              <label for="last_name">LAST NAME</label>
-              <input
-                type="text"
-                name="last_name"
-                id="last_name"
-                placeholder="Yang"
-              />
-            </div>
-            <div>
-              <label for="user_email">EMAIL</label>
-              <input
-                type="email"
-                name="user_email"
-                id="user_email"
-                placeholder="xxx@email.com"
-              />
-            </div>
-            <div>
-              <label for="phone-number">PHONE NUMBER</label>
-              <input
-                type="text"
-                name="phone-number"
-                id="phone-number"
-                placeholder="123-456-7890"
-              />
-            </div>
-            <div>
-              <label for="user_password">PASSWORD</label>
-              <input type="password" name="user_password" id="user_password" />
-            </div>
-            <div>
-              <label for="confirm_password">CONFIRM PASSWORD</label>
-              <input
-                type="password"
-                name="confirm_password"
-                id="confirm_password"
-              />
-            </div>
+            <ul class="input-row">
+              <li>
+                <label for="first_name">FIRST NAME</label>
+                <input
+                  type="text"
+                  id="first_name"
+                  name="first_name"
+                  placeholder="Jim"
+                />
+              </li>
+              <li>
+                <label for="last_name">LAST NAME</label>
+                <input
+                  type="text"
+                  name="last_name"
+                  id="last_name"
+                  placeholder="Yang"
+                />
+              </li>
+            </ul>
+            <ul class="input-row">
+              <li>
+                <label for="user_email">EMAIL</label>
+                <input
+                  type="email"
+                  name="user_email"
+                  id="user_email"
+                  placeholder="xxx@email.com"
+                />
+              </li>
+              <li>
+                <label for="phone-number">PHONE NUMBER</label>
+                <input
+                  type="text"
+                  name="phone-number"
+                  id="phone-number"
+                  placeholder="123-456-7890"
+                />
+              </li>
+            </ul>
+            <ul class="input-row">
+              <li>
+                <label for="user_password">PASSWORD</label>
+                <input
+                  type="password"
+                  name="user_password"
+                  id="user_password"
+                />
+              </li>
+              <li>
+                <label for="confirm_password">CONFIRM PASSWORD</label>
+                <input
+                  type="password"
+                  name="confirm_password"
+                  id="confirm_password"
+                />
+              </li>
+            </ul>
           </div>
-          <div class="submit-and-login">
-            <div class="form-submit">
-              <button type="submit">Create Account</button>
-            </div>
-            <div class="log-in-page">Already have an acccount? Log In Here</div>
+        </div>
+        <div class="submit-and-login">
+          <div class="form-submit">
+            <button type="submit">Create Account</button>
           </div>
+          <div class="log-in-page">Already have an acccount? Log In</div>
         </div>
       </form>
     </div>
